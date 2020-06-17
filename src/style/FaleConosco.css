@@ -1,0 +1,19 @@
+form{
+    width:350px;
+    margin:20px auto;
+}
+input{
+    width:90%;
+    height: 35px;
+    font-size:15px;
+    margin-bottom:10px;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 90%;
+    height: 200px;
+    font-size:15px
+}

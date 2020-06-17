@@ -1,26 +1,75 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react"
+import Header from "./components/Header"
+const App = () => {
+    return (
+        <div>
+            <Header />
+        </div>
+    )
 }
-
 export default App;
+
+
+
+
+
+
+          
+
+       
+             
+       
+
+         
+         
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import Home from "./pages/home"
+// import Produtos from "./pages/Produtos"
+// import Lista from "./components/lista"
+// import Atributos from "./components/Atributos"
+// import Compras from "./components/Compras"
+
+// const App = () => {
+//     return (
+//     <div>
+//         <h1>
+//             Valmyr Tavares
+//         </h1>
+//         <Home/>
+//         <Produtos/>
+//         <Lista />
+//         <Atributos />
+//         <Compras/>
+//     </div>);
+//   };
+
+//   export default App;
